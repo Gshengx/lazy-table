@@ -12,7 +12,7 @@
 
 import React from "react";
 import { Route, Switch} from "react-router-dom";
-import Home from '../components/table/index';
+import Home from '../home';
 export default class RootContainer extends React.Component {
     constructor(props) {
         super(props);
