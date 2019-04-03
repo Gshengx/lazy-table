@@ -4,8 +4,9 @@ import './index.less';
 
 class App extends Component {
     render() {
+        console.info('12');
         return (
-            <div className="App">
+            <div className="table">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>
