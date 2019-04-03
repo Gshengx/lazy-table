@@ -138,10 +138,7 @@ module.exports = function(webpackEnv) {
       // the line below with these two lines if you prefer the stock client:
       // require.resolve('webpack-dev-server/client') + '?/',
       // require.resolve('webpack/hot/dev-server'),
-<<<<<<< HEAD
         'react-hot-loader/patch',
-=======
->>>>>>> 配置
       isEnvDevelopment &&
         require.resolve('react-dev-utils/webpackHotDevClient'),
       // Finally, this is your app's code:
@@ -353,10 +350,7 @@ module.exports = function(webpackEnv) {
                       },
                     },
                   ],
-<<<<<<< HEAD
                     'react-hot-loader/babel',
-=======
->>>>>>> 配置
                 ],
                 // This is a feature of `babel-loader` for webpack (not Babel itself).
                 // It enables caching results in ./node_modules/.cache/babel-loader/
